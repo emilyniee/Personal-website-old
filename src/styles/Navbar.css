@@ -1,0 +1,70 @@
+.navbar{
+    background: var(--color-1);
+    justify-content: right;
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.pages {
+    width: 95%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+
+.menuButton {
+    text-align: right;
+    padding: 20px;
+}
+
+.navButton{
+    margin: 10px;
+}
+
+#open {
+    height: 100vh;
+}
+
+#open .pages {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#open a {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .menuButton {
+        display: none
+    }
+
+    #open{
+        height: 70px;
+    }
+    
+    #open .pages {
+        flex-direction: row;
+    }
+
+    .pages{
+        display: flex;
+    }
+
+  }
+
