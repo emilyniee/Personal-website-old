@@ -21,8 +21,8 @@ function Navbar() {
         </IconContext.Provider>
         </div>
         <div className = "pages">
-            <div className = "navButton"><Link to = "/"> Home </Link></div>
-            <div className = "navButton"><Link to = "/about"> About </Link></div>
+            <div className = "navButton"><Link to = "/personal-website"> Home </Link></div>
+            <div className = "navButton"><Link to = "/personal-website/about"> About </Link></div>
             {/*<Link to = "/projects"> Projects </Link>*/}
         </div>
     </div>

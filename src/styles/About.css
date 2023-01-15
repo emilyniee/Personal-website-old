@@ -5,4 +5,12 @@ h1{
 
 p{
     color: white;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+
+.painting{
+    height: 20vh;
+    padding: 2vh;
+    border-radius: 20px;
 }
