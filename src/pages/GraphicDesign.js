@@ -39,7 +39,7 @@ function GraphicDesign() {
               </a>
             </IconContext.Provider>
             <IconContext.Provider value={{  className: "menuIcon", size: 30 }}>
-              <a href="hhttps://www.racetoacure.org/initiatives">
+              <a href="https://www.racetoacure.org/">
                 <button><AiOutlineGlobal/></button>
               </a>
             </IconContext.Provider>
