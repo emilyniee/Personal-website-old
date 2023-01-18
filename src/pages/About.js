@@ -1,20 +1,17 @@
 import React from 'react'
 import '../styles/About.css';
-import painting1 from "../images/painting1.png";
-import painting2 from "../images/painting2.png";
-import painting3 from "../images/painting3.png";
+import me from "../images/me.JPG";
 
 function About() {
   return (
-    <div className="AboutMe">
-      <h1>About</h1>
-      <div className='paintings'>
-        <img className='painting' src = {painting1} alt=""/>
-        <img className='painting' src = {painting2} alt=""/>
-        <img className='painting' src = {painting3} alt=""/>
-      </div>
-      <p>Hi! My name is Emily Nie and I’m a first year CS student at the University of Waterloo. I’m interested in becoming a full stack developper, and I hope to solve modern healthcare problems through technology. In my spare time, I enjoy dancing, painting and playing a variety of video games.
-</p>
+    <div className="aboutMe">
+      <h1>About Me</h1>
+      <img className='myphoto' src = {me} alt=""/>
+      <p className='description'>
+      Hi! My name is Emily Nie and I’m a first-year Computer Science student at the University of Waterloo. I strive to not just code, but code with the purpose of transforming the world around me. I hope to develop innovative technology with stunning UI/UX design, allowing for people around me to live easier and happier lives. In my spare time, you’ll catch me in a dance studio or at a gaming PC.
+      </p>
+      
+      
     </div>  
   )
 }

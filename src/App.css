@@ -1,6 +1,7 @@
 :root{
   --color-1: #434F75;
   --color-2: #AEA8C8;
+  --color-3: #d1cce5;
 }
 
 .App {
@@ -15,4 +16,43 @@ body {
   font-family: 'Courier New', Courier, monospace
 }
 
+img{
+  max-width: 80%;
+  height: auto;
+  padding: 2vh;
+  border-radius: 20px;
+}
+
+h1{
+  margin-top: 40px;
+  color: var(--color-3);
+}
+
+h2{
+  font-size: 30px;
+  color: var(--color-3);
+}
+
+h3{
+  font-size: 20px;
+  color: var(--color-2);
+}
+
+h4{
+  font-size: 15px;
+}
+
+.description{
+  color: var(--color-3);
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.paragraph{
+  color: white;
+  font-size: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 

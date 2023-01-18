@@ -4,6 +4,7 @@ import Home from './pages/Home';
 //import Projects from './pages/Projects';
 import About from './pages/About';
 import Navbar from './components/Navbar';
+import GraphicDesign from './pages/GraphicDesign';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/personal-website" element = {<Home />}/>
-          {/*<Route path="/projects" element = {<Projects />}/>*/}
           <Route path="/personal-website/about" element = {<About />}/>
+          <Route path="/personal-website/graphic-design" element = {<GraphicDesign />}/>
         </Routes>
       </Router>
     </div>
